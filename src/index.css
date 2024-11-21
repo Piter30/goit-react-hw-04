@@ -1,0 +1,35 @@
+/* Resetowanie marginesów i paddingu */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stylizacja dla body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Kontener nawigacji */
+header {
+  background-color: #3a3eb1; /* Kolor niebieskiego paska */
+}
+
+/* Galeria obrazów - ogólne ustawienia */
+ul {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Obrazki w galerii - efekty globalne */
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
